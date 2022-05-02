@@ -1,0 +1,32 @@
+{
+  // editor
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnType": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  // files
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".coverage": true,
+    ".nyc_output": true
+  },
+  // barrelr
+  "barrelr.lineEnding": "LF",
+  // git
+  "git.inputValidation": "off",
+  // cSpell
+  "cSpell.language": "en,pt,pt_PT",
+}

@@ -1,0 +1,26 @@
+{
+  "name": "moneytizer",
+  "version": "1.0.0",
+  "description": "Projeto criado para demonstrar como fazer o desenvolvimento de uma solução que envolve frontend e backend.",
+  "main": "index.js",
+  "scripts": {
+    "start:api": "cd ./api && npm start",
+    "start:web": "cd ./web && npm start",
+    "start": "concurrently \"npm run start:api\" \"npm run start:web\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroluk/moneytizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandroluk/moneytizer/issues"
+  },
+  "homepage": "https://github.com/leandroluk/moneytizer#readme",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
